@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/home1"
+            android:text="Home"
+            android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/product"
+                android:text="Product"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/shipping"
+                android:text="Shipping"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/offers"
+                android:text="Offers"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/categories"
+                android:text="Categories"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/bestsellers"
+                android:text="Bestsellers"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/cart"
+                android:text="Cart"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        android:id="@+id/frame1"
+        android:layout_height="0dp"></FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="Copyrights to--Srikanth"
+         />
+
+</LinearLayout>
