@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fmanager=getSupportFragmentManager();
                 FragmentTransaction ftransaction=fmanager.beginTransaction();
-                ftransaction.add(R.id.frame1,new Home());
+                ftransaction.replace(R.id.frame1,new Home());
                 ftransaction.addToBackStack("true");
                 ftransaction.commit();
             }
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fmanager=getSupportFragmentManager();
                 FragmentTransaction ftransaction=fmanager.beginTransaction();
-                ftransaction.add(R.id.frame1,new Product());
+                ftransaction.replace(R.id.frame1,new Product());
                 ftransaction.addToBackStack("true");
                 ftransaction.commit();
             }
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fmanager=getSupportFragmentManager();
                 FragmentTransaction ftransaction=fmanager.beginTransaction();
-                ftransaction.add(R.id.frame1,new Offers());
+                ftransaction.replace(R.id.frame1,new Offers());
                 ftransaction.addToBackStack("true");
                 ftransaction.commit();
             }
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fmanager=getSupportFragmentManager();
                 FragmentTransaction ftransaction=fmanager.beginTransaction();
-                ftransaction.add(R.id.frame1,new Categories());
+                ftransaction.replace(R.id.frame1,new Categories());
                 ftransaction.addToBackStack("true");
                 ftransaction.commit();
             }
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fmanager=getSupportFragmentManager();
                 FragmentTransaction ftransaction=fmanager.beginTransaction();
-                ftransaction.add(R.id.frame1,new Bestsellers());
+                ftransaction.replace(R.id.frame1,new Bestsellers());
                 ftransaction.addToBackStack("true");
                 ftransaction.commit();
             }
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fmanager=getSupportFragmentManager();
                 FragmentTransaction ftransaction=fmanager.beginTransaction();
-                ftransaction.add(R.id.frame1,new Cart());
+                ftransaction.replace(R.id.frame1,new Cart());
                 ftransaction.addToBackStack("true");
                 ftransaction.commit();
             }
